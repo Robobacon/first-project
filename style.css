@@ -9,6 +9,11 @@ header {
     text-align: center;
 }
 
+main h2 {
+    color: #2A167A;
+    text-align: center;
+}
+
 #navbar {
     display: flex;
     justify-content: space-evenly;
