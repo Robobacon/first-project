@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url(./images/space-background.jpg);
+    color: white;
+    text-align: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    background-color: white;
+}
