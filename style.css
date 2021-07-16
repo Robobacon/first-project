@@ -3,12 +3,21 @@
 }
 
 #banner {
+    height: 100vh;
     background-image: url(./images/space-background.jpg);
     color: white;
-    text-align: center;
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center;
+    margin: 0px; */
     /* border: 1px solid white; */
-    padding: 100px 0px 50px 0px;
+    /* padding: 100px 0px 50px 0px; */
+}
+
+#arrow {
+    font-size: 48px;
 }
 
 h1 {
@@ -28,7 +37,7 @@ main h2 {
 #navbar {
     display: flex;
     justify-content: space-evenly;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     padding: 10px;
@@ -37,7 +46,7 @@ main h2 {
     /* background-color: white; */
 }
 
-#navbar a {
+#navbar a, header a {
     color: white;
     text-decoration: none;
     font-size: 18px;
