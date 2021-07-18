@@ -14,8 +14,8 @@ scroll-behavior: smooth;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center;
-    margin: 0px; */
+    text-align: center;
+    /* margin: 0px; */
     /* border: 1px solid white; */
     /* padding: 100px 0px 50px 0px; */
 }
@@ -70,6 +70,35 @@ p, li {
     width: 200px;
 }
 
+#course div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#course div button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    /* font-size: 12px; */
+}
+
+.hide {
+    display: none;
+}
+
+button:hover h2 {
+    display: none;
+}
+
+button:hover .hide {
+    display: block;
+    color: #2A167A;
+}
+
 #contact-images div {
     height: 50px;
     width: 50px;
@@ -85,3 +114,4 @@ p, li {
     display: flex;
     justify-content: center;
 }
+
