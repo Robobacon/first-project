@@ -82,6 +82,10 @@ p, li {
     margin: 0px 20px;
 }
 
+#course p, #contact p {
+    margin-bottom: 30px;
+}
+
 #profile-pic {
     height: 200px;
     width: 200px;
@@ -137,7 +141,7 @@ p, li {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin: 10px;
+    margin: 5px;
     height: 200px;
     width: 200px;
 }
@@ -164,5 +168,25 @@ p, li {
 #contact-images {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+    p, li, #navbar a {
+        font-size: 18px;
+    }
+
+    main h2 {
+        font-size: 36px;
+    }
+
+    #course div button, #project-display button, #profile-pic {
+        height: 300px;
+        width: 300px;
+    }
+
+    #contact-images div {
+        height: 75px;
+        width: 75px;
+    }
 }
 
