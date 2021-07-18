@@ -28,6 +28,13 @@ h1 {
     font-size: 96px;
     margin-bottom: 0px;
 }
+
+hr {
+    width: 90%;
+    border: 1px solid #2A167A;
+    background-color: #2A167A;
+}
+
 header h2 {
     font-size: 48px;
 }
@@ -44,7 +51,7 @@ main h2 {
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     background-color: #2A167A;
         /* border: 2px solid black; */
     /* background-color: white; */
@@ -53,7 +60,7 @@ main h2 {
 #navbar a, header a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 #navbar a {
