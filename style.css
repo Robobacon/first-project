@@ -15,9 +15,6 @@ scroll-behavior: smooth;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* margin: 0px; */
-    /* border: 1px solid white; */
-    /* padding: 100px 0px 50px 0px; */
 }
 
 #arrow {
@@ -82,10 +79,20 @@ header h2 {
     font-size: 48px;
 }
 
-main h2 {
+button h2 {
     color: #2A167A;
     text-align: center;
-    font-size: 24px;
+    font-size: 3vw;
+}
+
+button p {
+    font-size: 2vw;
+}
+
+.h2-adjust {
+    color: #2A167A;
+    text-align: center;
+    font-size: 5vw;
 }
 
 #navbar {
@@ -96,8 +103,6 @@ main h2 {
     width: 100%;
     padding: 7px;
     background-color: #2A167A;
-        /* border: 2px solid black; */
-    /* background-color: white; */
 }
 
 #navbar a, header a {
@@ -119,18 +124,19 @@ main h2 {
     display: flex;
 }
 
-p, li {
-    font-size: 12px;
+li {
+    font-size: 2vw;
     margin: 0px 20px;
 }
 
-#course p, #contact p {
-    margin-bottom: 30px;
+#intro p, #course p, #contact p {
+    font-size: 2.5vw;
+    margin: 30px;
 }
 
 #profile-pic {
-    height: 200px;
-    width: 200px;
+    height: 35vw;
+    width: 35vw;
 }
 
 #course div {
@@ -149,7 +155,6 @@ p, li {
     border-radius: 20px;
     border: 1px solid black;
     margin: 10px;
-    /* font-size: 12px; */
 }
 
 .hide {
@@ -213,15 +218,8 @@ p, li {
 }
 
 @media screen and (min-width: 700px) {
-    p, li, #navbar a {
-        font-size: 18px;
-    }
 
-    main h2 {
-        font-size: 36px;
-    }
-
-    #course div button, #project-display button, #profile-pic {
+    #course div button, #project-display button {
         height: 300px;
         width: 300px;
     }
@@ -230,5 +228,8 @@ p, li {
         height: 75px;
         width: 75px;
     }
-}
 
+    li, button p {
+        font-size: 1.4vw;
+    }
+}
