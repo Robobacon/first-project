@@ -127,6 +127,7 @@ button p {
 li {
     font-size: 2vw;
     margin: 0px 20px;
+    text-align: left;
 }
 
 #intro p, #course p, #contact p {
