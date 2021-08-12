@@ -115,7 +115,7 @@ button p {
     padding: 0px 5px;
 }
 
-#navbar a:hover, #projects button:hover {
+#navbar a:hover{
     background-color: white;
     color: #2A167A;
 }
@@ -196,13 +196,45 @@ li {
     width: 300px;
 }
 
+#website:hover {
+    background-image: url(./images/website.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#trello:hover {
+    background-image: url(./images/trello.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#test-plan:hover {
+    background-image: url(./images/test-plan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#tableau:hover {
+    background-image: url(./images/tableau.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#project-display button:hover h2, #project-display button:hover p {
+    display: none;
+}
+
 #project-display h2 {
     color: white;
 }
 
-#project-display button:hover h2 {
-    color: #2A167A;
-}
+/* #project-display button:hover h2 {
+    
+} */
 
 #contact-images div {
     height: 50px;
