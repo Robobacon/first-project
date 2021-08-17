@@ -87,6 +87,7 @@ button h2 {
 
 button p {
     font-size: 16px;
+    margin: 0px 5px;
 }
 
 .h2-adjust {
@@ -152,8 +153,8 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     border-radius: 20px;
     border: 1px solid black;
     margin: 10px;
@@ -187,7 +188,6 @@ li {
     display: inline-block;
     border: 1px solid black;
     color: white;
-    background-color: #2A167A;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -196,45 +196,46 @@ li {
     width: 300px;
 }
 
-#website:hover {
+#website {
     background-image: url(./images/website.png);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
 }
 
-#trello:hover {
+#trello {
     background-image: url(./images/trello.png);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
 }
 
-#test-plan:hover {
+#test-plan {
     background-image: url(./images/test-plan.png);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
 }
 
-#tableau:hover {
+#tableau {
     background-image: url(./images/tableau.png);
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
 }
 
-#project-display button:hover h2, #project-display button:hover p {
-    display: none;
+#project-display button:hover {
+    background-image: none;
+    background-color: #2A167A;
+}
+
+#project-display button:hover .hide {
+    display: inline-block;
 }
 
 #project-display h2 {
     color: white;
 }
-
-/* #project-display button:hover h2 {
-    
-} */
 
 #contact-images div {
     height: 50px;
