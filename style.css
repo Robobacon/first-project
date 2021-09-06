@@ -224,6 +224,20 @@ li {
     cursor: pointer;
 }
 
+#feasibility {
+    background-image: url(./images/feasibility-study.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#business-case {
+    background-image: url(./images/business-case.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
 #project-display button:hover {
     background-image: none;
     background-color: #2A167A;
